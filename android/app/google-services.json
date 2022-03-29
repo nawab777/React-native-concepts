@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "20630180234",
+    "project_id": "tycoon-b9773",
+    "storage_bucket": "tycoon-b9773.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:20630180234:android:2d93f897af0870cb58b873",
+        "android_client_info": {
+          "package_name": "com.tycoonclub"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "20630180234-3mhk91334oacmq7q75g60n36dfshjr59.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAy43Z6wvmOJzCv7bXQQv1b_TRkQlCGf0s"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "20630180234-3mhk91334oacmq7q75g60n36dfshjr59.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
