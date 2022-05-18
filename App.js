@@ -12,6 +12,7 @@ import Drawertab from './screens/tabnavigation'
 import Productbio from  './screens/productbio'
 import {Provider} from 'react-redux'
 import { store } from './redux/store'
+import Inquiry from './screens/Inquiry'
 
 export default function App(){
   const Stack=createNativeStackNavigator();
@@ -19,7 +20,7 @@ export default function App(){
       <Provider store={store}>
       <NavigationContainer>
      <Stack.Navigator screenOptions={{header:()=>null}}  >
-      <Stack.Screen name='Login' component={Login}  />
+      <Stack.Screen name='login' component={Login}  />
     <Stack.Screen  name='Drawertab' component={Drawertab} />
     <Stack.Screen name='Productbio' component={Productbio} />
     

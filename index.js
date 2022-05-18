@@ -9,6 +9,7 @@ import {name as appName} from './app.json';
 import Supa from './screens/supa'
 import PushNotification from "react-native-push-notification";
 
+
 PushNotification .configure({
     onNotification: function (notification) {
         console.log("NOTIFICATION:", notification);

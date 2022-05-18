@@ -4,6 +4,7 @@ export const Getcities='Getcities';
 export const getlat='getlat';
 export const getlong='getlong';
 
+
 const URL='https://mocki.io/v1/6e710ba6-ec99-40b4-8e2c-95da3e6b3699';
 export const showplaces=()=>{
     console.log('jsd')
@@ -53,7 +54,7 @@ return{
 export const getlongitude=(long)=>{
 
     return{
-        type:getlat,
+        type:getlong,
         payload:long
     }
 

@@ -28,6 +28,7 @@ const Tabbar=({navigation})=>{
             tabBarInactiveTintColor: 'gray',
             tabBarActiveBackgroundColor:'grey',
             tabBarShowLabel:true,
+            tabBarStyle:{height:37.5},
             header:()=>null,
             
            tabBarIcon:({focused,size,color})=>{
